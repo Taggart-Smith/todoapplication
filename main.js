@@ -30,6 +30,7 @@ function addTask() {
         localStorage.setItem('idCounter', idCounter);
         renderTasks();
         document.getElementById("taskName").value = "";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
         alert('Need to put a Task');
     }
@@ -116,6 +117,7 @@ function addStepFunc() {
 
             renderPageInfo(taskId);
             document.getElementById("stepName").value = "";
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
             alert('Task not found or it is not a Tasks instance!');
         }
