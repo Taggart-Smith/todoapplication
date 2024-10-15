@@ -87,7 +87,7 @@ function renderPageInfo(id) {
     if (task) {
         document.getElementById('taskTitle').textContent = `${task.title}`;
         document.getElementById('taskId').value = id;
-
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         content.innerHTML = '';
         if (Array.isArray(task.steps) && task.steps.length > 0) {
             task.steps.forEach(step => {

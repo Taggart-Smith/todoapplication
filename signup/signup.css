@@ -1,0 +1,102 @@
+
+.signin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images/signup.jpg");
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+}
+.wrapper {
+  color: #f2f2f2;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  width: max(40%, 600px);
+  border-radius: 0 20px 20px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px 50px 0;
+  gap: 10px;
+
+}
+
+label {
+  padding: 10px 15px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+input {
+  padding: 8px 0px;
+}
+button {
+  color: #F2f2f2;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+
+
+/* .login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images-icons/pexels-ryan-holloway-71499-427900.jpg");
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+
+  .wrapper {
+    color: var.$textcolor;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: max(40%, 600px);
+    border-radius: 20px 0 0 20px;
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 3rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0px 50px 0;
+      gap: 10px;
+
+      .form-input {
+        label {
+          padding: 10px 15px;
+          margin-right: 5px;
+          background-color: rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(10px);
+        }
+      }
+
+      button {
+        color: var.$textcolor;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+      }
+    }
+  }
+} */
