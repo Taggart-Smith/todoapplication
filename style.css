@@ -1,0 +1,111 @@
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container-fluid,
+.row {
+    height: 100%;
+}
+
+.container-fluid{
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100%;
+}
+
+.sidebar .list-group-item.active {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.content {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.todo-item {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tasks-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0px;
+}
+
+.solo-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.solo-task:hover{
+    background-color: rgb(15, 87, 147);
+    cursor: pointer;
+}
+
+.solo-task > h5{
+    padding: 0;
+    margin: 0;
+}
+
+.delete-all-tasks-button{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#addTask{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#addTask:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.add-new-step {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.add-new-step > i {
+    padding: 10px;
+    background-color: #6c757d;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+}
